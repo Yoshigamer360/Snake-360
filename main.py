@@ -20,12 +20,8 @@ pygame.display.set_caption("Snake Game - By Yoshi Gamer 360")
 clock = pygame.time.Clock()
 
 # Define the colours
-if styleChoice == 'b':
-    colourBackground = (0, 0, 0)
-    colourScore = (0, 255, 0)
-else:
-    colourBackground = (166, 227, 159)
-    colourScore = (30, 0, 100)
+colourBackground = (0, 0, 0)
+colourScore = (0, 255, 0)
 colourFood = (250, 250, 5)
 
 # Define snake colours array
